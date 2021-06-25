@@ -7,7 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'AngularChallenge';
-  textToChange="Text to change"
+  Hobbies="Hobbies:"
   hobbyArray = ["play Call Of Duty", "Play Minecraft", "Watch Anime"];
+  Derick = ["Name:derick"];
+  Alex = ["Age:16"]
 }
 

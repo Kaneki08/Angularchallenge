@@ -1,7 +1,13 @@
 <h1>{{title}}</h1>
+<ul>
+    <li *ngFor="let me of Derick">{{Derick}}</li>
+</ul>
+<ul>
+<li *ngFor="let me of Alex">{{Alex}}</li>
 
-<input {{ngModel}} = "textToChange"/> 
-<h1>{{textToChange}}</h1>
+</ul>
+<input [(ngModel)] = "Hobbies"/> 
+<h1>{{Hobbies}}</h1>
 <ul>
 <li *ngFor="let hobby of hobbyArray">{{hobby}}</li>  
 </ul>
